@@ -1,0 +1,3 @@
+#task to create pairs of primers to particular sequence. Pairs of primers shoul have simialar length and melting temperature. For this purpose I tried Hi-plex modul on python
+
+python Primer_design.py --refdir /home/olga/hg19f --genes MYH7_LONG --blocksize 160 --maxprimersize 30 --primervar 20 --splicebuffer 20 --melt 64 --log myh7_prime3_l.log --idtfile myh7_prime4_l.csv --maxhairpinsize 30 --blocksizevar 30 --scale 25nmole --purification 'Standard Desalting'
